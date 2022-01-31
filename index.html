@@ -1,0 +1,887 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Traveloptions.AFRICA: Flight and Car Booking</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="icon" href="images/favicon.png" type="image/x-icon">
+        <meta name="author" content="Kolawole AKINSUMBO">
+        <!-- <meta name="title" content="CTO, Traveloptions.AFRICA"> -->
+        <!-- <meta name="email" content="kolawoleakins@gmail.com"> -->
+        
+        <!-- Google Fonts -->	
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i%7CMerriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        
+        <!-- Bootstrap Stylesheet -->	
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <!-- Font Awesome Stylesheet -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+            
+        <!-- Custom Stylesheets -->	
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" id="cpswitch" href="css/orange.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        
+        <!-- Flex Slider Stylesheet -->
+        <link rel="stylesheet" href="css/flexslider.css" type="text/css" />
+        
+        <!--Date-Picker Stylesheet-->
+        <link rel="stylesheet" href="css/datepicker.css">
+        
+        <!-- Magnific Gallery -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+    </head>
+    
+    
+    <body id="flight-homepage">
+    
+        <!--====== LOADER =====-->
+        <!-- <div class="loader"></div> -->
+    
+    
+    	<!--======== SEARCH-OVERLAY =========-->       
+        <div class="overlay">
+            <a href="javascript:void(0)" id="close-button" class="closebtn">&times;</a>
+            <div class="overlay-content">
+                <div class="form-center">
+                    <form>
+                    	<div class="form-group">
+                        	<div class="input-group">
+                        		<input type="text" class="form-control" placeholder="Search..." required />
+                            	<span class="input-group-btn"><button type="submit" class="btn"><span><i class="fa fa-search"></i></span></button></span>
+                            </div><!-- end input-group -->
+                        </div><!-- end form-group -->
+                    </form>
+                </div><!-- end form-center -->
+            </div><!-- end overlay-content -->
+        </div><!-- end overlay -->
+        
+        
+        <!--============= TOP-BAR ===========-->
+        <div id="top-bar" class="tb-text-white">
+            <div class="container">
+                <div class="row">          
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div id="info">
+                            <ul class="list-unstyled list-inline">
+                                <li><span><i class="fa fa-whatsapp"></i></span>+234 909 042 0698</li>
+                                <li><span><i class="fa fa-phone"></i></span>+234 704 041 2731</li>
+                            </ul>
+                        </div><!-- end info -->
+                    </div><!-- end columns -->
+                    
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div id="links">
+                            <ul class="list-unstyled list-inline">
+                                <li><a href="#"><span><i class="fa fa-lock"></i></span>Login</a></li>
+                                <li><a href="#"><span><i class="fa fa-plus"></i></span>Sign Up</a></li>
+                                <li>
+                                	<form>
+                                    	<ul class="list-inline">
+                                        	<li>
+                                                <div class="form-group currency">
+                                                    <span><i class="fa fa-angle-down"></i></span>
+                                                    <select class="form-control">
+                                                        <option value="">₦</option>
+                                                        <option value="">£</option>
+                                                    </select>
+                                                </div><!-- end form-group -->
+											</li>
+                                            
+                                            <li>
+                                                <div class="form-group language">
+                                                    <span><i class="fa fa-angle-down"></i></span>
+                                                    <select class="form-control">
+                                                        <option value="">EN</option>
+                                                        <option value="">UR</option>
+                                                        <option value="">FR</option>
+                                                        <option value="">IT</option>
+                                                    </select>
+                                                </div><!-- end form-group -->
+                                            </li>
+										</ul>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div><!-- end links -->
+                    </div><!-- end columns -->				
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end top-bar -->
+
+        <nav class="navbar navbar-default main-navbar navbar-custom navbar-white" id="mynavbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" id="menu-button">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>                        
+                    </button>
+                    <div class="header-search hidden-lg">
+                    	<a href="javascript:void(0)" class="search-button"><span><i class="fa fa-search"></i></span></a>
+                    </div>
+                    <a href="htts://flight.traveltions.africa/" class="navbar-brand"><img src="images/traveloptionslogo.png" height="43px" width="184"></a>
+                </div><!-- end navbar-header -->
+                
+                <div class="collapse navbar-collapse" id="myNavbar1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown active"><a href="https://www.traveloptions.africa">Home</a></li>
+                        <li class="dropdown"><a href="https://www.traveloptions.africa/page/hotel">Hotels</a></li>
+                        <li class="dropdown"><a href="https://www.traveloptions.africa/page/space">Apartments</a></li>
+                        <li class="dropdown"><a href="https://www.traveloptions.africa/page/tour">Experience</a></li>
+                        <li class="dropdown"><a href="https://flight.traveloptions.africa/">Transport</a></li>
+                
+                                    </div>
+                                </li>
+                            </ul>			
+                        </li>
+                    </ul>
+                </div><!-- end navbar collapse -->
+            </div><!-- end container -->
+        </nav><!-- end navbar -->
+
+		<div class="sidenav-content">
+            <div id="mySidenav" class="sidenav" >
+                <h2 id="web-name"><span><i class="fa fa-plane"></i></span>Traveloptions</h2>
+
+                <div id="main-menu">
+                	<div class="closebtn">
+                        <button class="btn btn-default" id="closebtn">&times;</button>
+                    </div><!-- end close-btn -->
+                    
+                    <div class="list-group panel">
+                    
+                        <a href="https://www.traveloptions.africa" class="list-group-item active" data-toggle="collapse" data-parent="#main-menu"><span><i class="fa fa-home link-icon"></i></span>Home<span><!-- <i class="fa fa-chevron-down arrow"></i> --> </span></a>
+                        <!--
+                        <div class="collapse sub-menu" id="home-links">
+                            <a href="index.html" class="list-group-item">Main Homepage</a>
+                            <a href="#" class="list-group-item active">Flight Homepage</a>
+                            <a href="hotel-homepage.html" class="list-group-item">Hotel Homepage</a>
+                            <a href="tour-homepage.html" class="list-group-item">Tour Homepage</a>
+                            <a href="cruise-homepage.html" class="list-group-item">Cruise Homepage</a>
+                            <a href="car-homepage.html" class="list-group-item">Car Homepage</a>
+                            <a href="landing-page.html" class="list-group-item">Landing Page</a>
+                        </div> end sub-menu -->
+                        
+                        <a href="index.html" class="list-group-item" data-toggle="collapse" data-parent="#main-menu"><span><i class="fa fa-plane link-icon"></i></span>Flights<span><!-- <i class="fa fa-chevron-down arrow"></i> --> </span></a>
+                        <!--
+                        <div class="collapse sub-menu" id="flights-links">
+                            <a href="flight-homepage.html" class="list-group-item">Flight Homepage</a>
+                            <a href="flight-listing-left-sidebar.html" class="list-group-item">List View Left Sidebar</a>
+                            <a href="flight-listing-right-sidebar.html" class="list-group-item">List View Right Sidebar</a>
+                            <a href="flight-grid-left-sidebar.html" class="list-group-item">Grid View Left Sidebar</a>
+                            <a href="flight-grid-right-sidebar.html" class="list-group-item">Grid View Right Sidebar</a>
+                            <a href="flight-detail-left-sidebar.html" class="list-group-item">Detail Left Sidebar</a>
+                            <a href="flight-detail-right-sidebar.html" class="list-group-item">Detail Right Sidebar</a>
+                        </div>  end sub-menu -->
+                        
+                        <a href="https://www.traveloptions.africa/page/hotel" class="list-group-item" data-toggle="collapse" data-parent="#main-menu"><span><i class="fa fa-building link-icon"></i></span>Hotels<span></span></a>
+                        
+                        <a href="https://www.traveloptions.africa/page/tour" class="list-group-item" data-toggle="collapse" data-parent="#main-menu"><span><i class="fa fa-globe link-icon"></i></span>Experience<span></span></a>
+                        
+                        <a href="https://www.traveloptions.africa/page/space" class="list-group-item" data-toggle="collapse" data-parent="#main-menu"><span><i class="fa fa-ship link-icon"></i></span>Apartments<span></span></a>
+                        
+                        <a href="https://www.traveloptions.africa/page/car" class="list-group-item" data-toggle="collapse" data-parent="#main-menu"><span><i class="fa fa-car link-icon"></i></span>Transport<span></span></a>
+                        
+                        <a href="https://www.traveloptions.africa/page/contact" class="list-group-item" data-toggle="collapse" data-parent="#main-menu"><span><i class="fa fa-clone link-icon"></i></span>Contact<span></span></a>
+                        
+                    </div><!-- end list-group -->
+                </div><!-- end main-menu -->
+            </div><!-- end mySidenav -->
+        </div><!-- end sidenav-content -->
+        
+        
+		<!--========================= FLEX SLIDER =====================-->
+        <section class="flexslider-container" id="flexslider-container-2">
+            <div class="flexslider slider" id="slider-2">
+                <ul class="slides">
+                    
+                    <li class="item-1 back-size" style="background:			linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/flight2.jpg) 50% 15%;
+	background-size:cover;
+	height:100%;">
+                    	<div class="meta">         
+                            <div class="container">
+                                <h2>Best Flight Offers</h2>
+                                <p></p>
+                            </div><!-- end container -->  
+                        </div><!-- end meta -->
+                    </li><!-- end item-1 -->
+                    
+                    <li class="item-2 back-size" style="background:			linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/flight1.jpeg) 50% 15%;
+	background-size:cover;
+	height:100%;">
+                        <div class=" meta">         
+                            <div class="container">
+                                <h2>Best Flight Deals</h2>
+                                <p></p>
+                            </div><!-- end container -->  
+                        </div><!-- end meta -->
+                    </li><!-- end item-2 -->
+                   
+                </ul>
+            </div><!-- end slider -->
+
+     
+            
+            <div class="search-tabs" id="search-tabs-2">
+            	<div class="container">
+
+
+                        
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="tab-content">
+
+                                        <!-- Thomalex Widget Starts -->
+                                        <div id="thomalex-widget" data-widget="https://traveloptionsafrica.resvoyage.com/widget/index?widgetId=73ee7d1e-a1c5-4563-822c-f9a9a939615d" style="height:450px;"></div>
+                                        <script src="https://traveloptionsafrica.resvoyage.com/scripts/thomalex-integration.js"></script>
+                                        <!-- Thomalex Widget End -->
+                            
+                            </div>
+                            
+                        </div>
+                </div><!-- end container -->
+            </div><!-- end search-tabs -->
+
+        </section><!-- end flexslider-container -->
+
+
+        <!--================= FLIGHT OFFERS =============-->
+        <section id="flight-offers" class="section-padding">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-sm-12">
+                    	<div class="page-heading">
+                        	<h2><i class="fa-solid fa-hat-santa"></i>Flight Offers</h2>
+                            <hr class="heading-line" />
+                        </div><!-- end page-heading -->
+                        
+                        <div class="row">
+                        
+                        	<div class="col-sm-6 col-md-4">
+                                <div class="main-block flight-block">
+                                    <a href="https://engines.resvoyage.com/Air/Traveloptions.Africa#search|USD-LOS-DXB-20211223-0--0-1-0-0-0-0-0---0-3-3-0-0">
+                                        <div class="flight-img">
+                                            <img src="images/royalairmaroc.png" class="img-responsive" alt="flight-img" width="80" height="45" />
+                                        </div><!-- end flight-img -->
+                                        
+                                        <div class="flight-info">
+                                            <div class="flight-title">
+                                                <h3><span class="flight-destination">Lagos - Dubai</span>|<span class="flight-type">One-way</span></h3>
+                                            </div><!-- end flight-title -->
+                                            
+                                            <div class=" flight-timing">
+                                                <ul class="list-unstyled">
+                                                    <li><span><i class="fa fa-plane"></i></span><span class="date">Dec. 23rd 2021</span></li>
+                                                    <li><span><i class="fa fa-plane"></i></span><span class="date">Dec. 23th 2021</span></li>
+                                                </ul>
+                                            </div><!-- end flight-timing -->
+                                            
+                                            <ul class="list-unstyled list-inline offer-price-1">
+                                                <li class="price">₦236,559.40<span class="pkg">starting</span></li>
+                                                <li class="rating">
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star lightgrey"></i></span>
+                                                </li>
+                                            </ul>
+                                        </div><!-- end flight-info -->
+                                    </a>
+                                </div><!-- end flight-block -->
+                            </div><!-- end columns -->
+                            
+                            <div class="col-sm-6 col-md-4">
+                                <div class="main-block flight-block">
+                                    <a href="https://engines.resvoyage.com/Air/Traveloptions.Africa#search|USD-LOS-MIA-20211223-0--0-1-0-0-0-0-0---0-3-3-0-0">
+                                        <div class="flight-img">
+                                            <img src="images/qatarlogo.png" class="img-responsive" alt="flight-img" width="120" height="85"/>
+                                        </div><!-- end flight-img -->
+                                        
+                                        <div class="flight-info">
+                                            <div class="flight-title">
+                                                <h3><span class="flight-destination">Lagos - Maimi</span>|<span class="flight-type">One-Way</span></h3>
+                                            </div><!-- end flight-title -->
+                                            
+                                            <div class=" flight-timing">
+                                                <ul class="list-unstyled">
+                                                    <li><span><i class="fa fa-plane"></i></span><span class="date">Dec. 23th 2021 </span></li>
+                                                    <li><span><i class="fa fa-plane"></i></span><span class="date">Dec. 23th 2021 </span></li>
+                                                </ul>
+                                            </div><!-- end flight-timing -->
+                                            
+                                            <ul class="list-unstyled list-inline offer-price-1">
+                                                <li class="price">₦333,593.60<span class="pkg">Starting</span></li>
+                                                <li class="rating">
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star lightgrey"></i></span>
+                                                </li>
+                                            </ul>
+                                        </div><!-- end flight-info -->
+                                    </a>
+                                </div><!-- end flight-block -->
+                            </div><!-- end columns -->
+                            
+                            <div class="col-sm-6 col-md-4">
+                                <div class="main-block flight-block">
+                                    <a href="https://engines.resvoyage.com/Air/Traveloptions.Africa#search|USD-ABV-LOS-20211214-0--0-1-0-0-0-0-0---0-3-3-0-0">
+                                        <div class="flight-img">
+                                            <img src="images/arikairlogo.png" class="img-responsive" alt="flight-img" width="180" height="65" />
+                                        </div><!-- end flight-img -->
+                                        
+                                        <div class="flight-info">
+                                            <div class="flight-title">
+                                                <h3><span class="flight-destination">Abuja - Lagos</span>|<span class="flight-type">One-Way</span></h3>
+                                            </div><!-- end flight-title -->
+                                            
+                                            <div class=" flight-timing">
+                                                <ul class="list-unstyled">
+                                                    <li><span><i class="fa fa-plane"></i></span><span class="date">Dec. 14th 2021 </span></li>
+                                                    <li><span><i class="fa fa-plane"></i></span><span class="date">Dec. 14th 2021 </span></li>
+                                                </ul>
+                                            </div><!-- end flight-timing -->
+                                            
+                                            <ul class="list-unstyled list-inline offer-price-1">
+                                                <li class="price">₦29,959.70<span class="pkg">Starting</span></li>
+                                                <li class="rating">
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star lightgrey"></i></span>
+                                                </li>
+                                            </ul>
+                                        </div><!-- end flight-info -->
+                                    </a>
+                                </div><!-- end flight-block -->
+                            </div><!-- end columns -->
+                            
+                            <div class="col-sm-6 col-md-4">
+                                <div class="main-block flight-block">
+                                    <a href="https://engines.resvoyage.com/Air/Traveloptions.Africa#search|USD-LOS-KUL-20211228-0--0-1-0-0-0-0-0---0-3-3-0-0">
+                                        <div class="flight-img">
+                                            <img src="images/turkishairlogo.png" class="img-responsive" alt="flight-img" width="180" height="65" />
+                                        </div><!-- end flight-img -->
+                                        
+                                        <div class="flight-info">
+                                            <div class="flight-title">
+                                                <h3><span class="flight-destination">Lagos - Malaysia</span>|<span class="flight-type">One-way</span></h3>
+                                            </div><!-- end flight-title -->
+                                            
+                                            <div class=" flight-timing">
+                                                <ul class="list-unstyled">
+                                                    <li><span><i class="fa fa-plane"></i></span><span class="date">Dec. 28th 2021 </span>(8:40 PM)</li>
+                                                    <li><span><i class="fa fa-plane"></i></span><span class="date">Dec. 29th 2021 </span>(8:40 PM)</li>
+                                                </ul>
+                                            </div><!-- end flight-timing -->
+                                            
+                                            <ul class="list-unstyled list-inline offer-price-1">
+                                                <li class="price">₦338,667.00<span class="pkg">Starting</span></li>
+                                                <li class="rating">
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star lightgrey"></i></span>
+                                                </li>
+                                            </ul>
+                                        </div><!-- end flight-info -->
+                                    </a>
+                                </div><!-- end flight-block -->
+                            </div><!-- end columns -->
+                            
+                            <div class="col-sm-6 col-md-4">
+                                <div class="main-block flight-block">
+                                    <a href="https://engines.resvoyage.com/Air/Traveloptions.Africa#search|USD-LOS-ACC-20211214-0--0-1-0-0-0-0-0---0-3-3-0-0">
+                                        <div class="flight-img">
+                                            <img src="images/hahnairlogo.png" class="img-responsive" alt="flight-img" width="180" height="65" />
+                                        </div><!-- end flight-img -->
+                                        
+                                        <div class="flight-info">
+                                            <div class="flight-title">
+                                                <h3><span class="flight-destination">Lagos - Accra</span>|<span class="flight-type">One-Way</span></h3>
+                                            </div><!-- end flight-title -->
+                                            
+                                            <div class=" flight-timing">
+                                                <ul class="list-unstyled">
+                                                    <li><span><i class="fa fa-plane"></i></span><span class="date">Dec. 14th 2021 </span>(8:40 PM)</li>
+                                                    <li><span><i class="fa fa-plane"></i></span><span class="date">Dec. 14th 2021 </span>(8:40 PM)</li>
+                                                </ul>
+                                            </div><!-- end flight-timing -->
+                                            
+                                            <ul class="list-unstyled list-inline offer-price-1">
+                                                <li class="price">₦144,477.60<span class="pkg">Starting</span></li>
+                                                <li class="rating">
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star lightgrey"></i></span>
+                                                </li>
+                                            </ul>
+                                        </div><!-- end flight-info -->
+                                    </a>
+                                </div><!-- end flight-block -->
+                            </div><!-- end columns -->
+                            
+                            <div class="col-sm-6 col-md-4">
+                                <div class="main-block flight-block">
+                                    <a href="https://engines.resvoyage.com/Air/Traveloptions.Africa#search|USD-LOS-JNB-20211214-0--0-1-0-0-0-0-0---0-3-3-0-0">
+                                        <div class="flight-img">
+                                            <img src="images/askyairlogo.png" class="img-responsive" alt="flight-img" width="180" height="65" />
+                                        </div><!-- end flight-img -->
+                                        
+                                        <div class="flight-info">
+                                            <div class="flight-title">
+                                                <h3><span class="flight-destination">Lagos - Jo'Burg</span>|<span class="flight-type">One-Way</span></h3>
+                                            </div><!-- end flight-title -->
+                                            
+                                            <div class=" flight-timing">
+                                                <ul class="list-unstyled">
+                                                    <li><span><i class="fa fa-plane"></i></span><span class="date">Nov. 27gh 2021 </span></li>
+                                                    <li><span><i class="fa fa-plane"></i></span><span class="date">Nov. 27th 2021 </span></li>
+                                                </ul>
+                                            </div><!-- end flight-timing -->
+                                            
+                                            <ul class="list-unstyled list-inline offer-price-1">
+                                                <li class="price">₦208,480.60<span class="pkg">Starting</span></li>
+                                                <li class="rating">
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star orange"></i></span>
+                                                    <span><i class="fa fa-star lightgrey"></i></span>
+                                                </li>
+                                            </ul>
+                                        </div><!-- end flight-info -->
+                                    </a>
+                                </div><!-- end flight-block -->
+                            </div><!-- end columns -->
+                            
+                        </div><!-- end row -->
+                        
+                        <div class="view-all text-center">
+                        	<a href="#" class="btn btn-orange">View All</a>
+                        </div><!-- end view-all -->
+                    </div><!-- end columns -->
+                </div><!-- end row -->
+        	</div><!-- end container -->
+        </section><!-- end flight-offers -->
+        
+        
+        <!--============== TOP DESTINATIONS ============-->
+        <section id="destinations" class="section-padding">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-sm-12">
+                    	<div class="page-heading">
+                        	<h2>Top Destinations</h2>
+                            <hr class="heading-line" />
+                        </div><!-- end page-heading -->
+                        
+                        <div class="row">
+                        
+                        	<div class="col-sm-6 col-md-6">
+                        		<div class="main-block destination-block">
+                                	<div class="row">
+                                    	<div class="col-sm-12 col-md-6 col-md-push-6 no-pd-l">
+                                        	<div class="main-img destination-img">
+                                            	<a href="#">
+                                                    <img src="images/dubai.jpeg" class="img-responsive" alt="destination-img" width="278" height="300" />
+                                                </a>
+                                            </div><!-- end destination-img -->
+                                        </div><!-- end columns -->
+                                        
+                                		<div class="col-sm-12 col-md-6 col-md-pull-6 no-pd-r">
+                                        	<div class="destination-info">
+                                                <div class="destination-title">
+                                                    <a href="#">Blue Waters</a>
+                                                    <p class="country">Dubai</p>
+                                                    <p>From record-breaking attractions to luxury resorts, this island address has it all.</p>                                      
+                                                	<span class="destination-price">₦232,000/Person</span>
+                                                    <a href="#" class="btn btn-orange">Book Now</a>
+                                                </div><!-- end destination-title -->
+                                            </div><!-- end destination-info -->
+                                        </div><!-- end columns -->
+                                        
+                                    </div><!-- end row -->	
+                                </div><!-- end destination-block -->
+                        	</div><!-- end columns -->
+                        	
+                            <div class="col-sm-6 col-md-6">
+                        		<div class="main-block destination-block">
+                                	<div class="row">
+                                    	<div class="col-sm-12 col-md-6 col-md-push-6 no-pd-l">
+                                        	<div class="main-img destination-img">
+                                            	<a href="#">
+                                                    <img src="images/sydney.jpeg" class="img-responsive" alt="destination-img" width="278" height="300" />
+                                                </a>
+                                            </div><!-- end destination-img -->
+                                        </div><!-- end columns -->
+                                        
+                                		<div class="col-sm-12 col-md-6 col-md-pull-6 no-pd-r">
+                                        	<div class="destination-info">
+                                                <div class="destination-title">
+                                                    <a href="#">Sydney Tour</a>
+                                                    <p class="country">Australia</p>
+                                                    <p>Sydney, capital of New South Wales and one of Australia's largest cities. It's a must visit destination.</p>                                      
+                                                	<span class="destination-price">₦99,000/Person</span>
+                                                    <a href="#" class="btn btn-orange">Book Now</a>
+                                                </div><!-- end destination-title -->
+                                            </div><!-- end destination-info -->
+                                        </div><!-- end columns -->
+                                        
+                                    </div><!-- end row -->	
+                                </div><!-- end destination-block -->
+                        	</div><!-- end columns -->
+                            
+                            <div class="col-sm-6 col-md-6">
+                        		<div class="main-block destination-block">
+                                	<div class="row">
+                                    	<div class="col-sm-12 col-md-6 col-md-push-6 no-pd-l">
+                                        	<div class="main-img destination-img">
+                                            	<a href="#">
+                                                    <img src="images/osun.jpeg" class="img-responsive" alt="destination-img" width="278" height="300"/>
+                                                </a>
+                                            </div><!-- end destination-img -->
+                                        </div><!-- end columns -->
+                                        
+                                		<div class="col-sm-12 col-md-6 col-md-pull-6 no-pd-r">
+                                        	<div class="destination-info">
+                                                <div class="destination-title">
+                                                    <a href="#">Osun Tour</a>
+                                                    <p class="country">Nigeria</p>
+                                                    <p>Osun is an inland state in south-western Nigeria. Its capital is Osogbo. It is bounded in the north by Kwara State.</p>                                      
+                                                	<span class="destination-price">₦18,000/Person</span>
+                                                    <a href="#" class="btn btn-orange">Book Now</a>
+                                                </div><!-- end destination-title -->
+                                            </div><!-- end destination-info -->
+                                        </div><!-- end columns -->
+                                        
+                                    </div><!-- end row -->	
+                                </div><!-- end destination-block -->
+                        	</div><!-- end columns -->
+                            
+                            <div class="col-sm-6 col-md-6">
+                        		<div class="main-block destination-block">
+                                	<div class="row">
+                                    	<div class="col-sm-12 col-md-6 col-md-push-6 no-pd-l">
+                                        	<div class="main-img destination-img">
+                                            	<a href="#">
+                                                    <img src="images/paris.jpeg" class="img-responsive" alt="destination-img" width="278" height="300"/>
+                                                </a>
+                                            </div><!-- end destination-img -->
+                                        </div><!-- end columns -->
+                                        
+                                		<div class="col-sm-12 col-md-6 col-md-pull-6 no-pd-r">
+                                        	<div class="destination-info">
+                                                <div class="destination-title">
+                                                    <a href="#">Beautiful Paris</a>
+                                                    <p class="country">France</p>
+                                                    <p>Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture.</p>                                      
+                                                	<span class="destination-price">₦56,000/Person</span>
+                                                    <a href="#" class="btn btn-orange">Book Now</a>
+                                                </div><!-- end destination-title -->
+                                            </div><!-- end destination-info -->
+                                        </div><!-- end columns -->
+                                        
+                                    </div><!-- end row -->	
+                                </div><!-- end destination-block -->
+                        	</div><!-- end columns -->
+                            
+                        </div><!-- end row -->
+                        
+                        <div class="view-all text-center">
+                        	<a href="#" class="btn btn-g-border">View All</a>
+                        </div><!-- end view-all -->
+                    </div><!-- end columns -->
+                </div><!-- end row -->
+        	</div><!-- end container -->
+        </section><!-- end destinations -->
+                
+                
+        <!--========================= BEST FEATURES =======================-->
+        <section id="best-features" class="banner-padding lightgrey-features">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-sm-6 col-md-3">
+                    	<div class="b-feature-block">
+                    		<span><i class="fa fa-naira"></i></span>
+                        	<h3>Best Price Guarantee</h3>
+                            <p>The Best Price Guarantee applies to rates which have matching terms of the comparison such as pre-payment, deposit and number of guests.</p>
+                        </div><!-- end b-feature-block -->
+                   </div><!-- end columns -->
+                   
+                   <div class="col-sm-6 col-md-3">
+                    	<div class="b-feature-block">
+                    		<span><i class="fa fa-lock"></i></span>
+                        	<h3>Safe and Secure</h3>
+                            <p>We provides you with a simple and easy way to spend online. The security and integrity of your personal information is our top priority.</p>
+                        </div><!-- end b-feature-block -->
+                   </div><!-- end columns -->
+                   
+                   <div class="col-sm-6 col-md-3">
+                    	<div class="b-feature-block">
+                    		<span><i class="fa fa-thumbs-up"></i></span>
+                        	<h3>Best Flight Deals</h3>
+                            <p>Find cheap flights and save money on airline tickets to every destination in the world at Traveloptions.AFRICA</p>
+                        </div><!-- end b-feature-block -->
+                   </div><!-- end columns -->
+                   
+                   <div class="col-sm-6 col-md-3">
+                    	<div class="b-feature-block">
+                    		<span><i class="fa fa-bars"></i></span>
+                        	<h3>Travel Guidelines</h3>
+                            <p>See a map with COVID-19 risk assessment by country, find travel requirements, recommendations, and information by vaccination status for global travel.</p>
+                        </div><!-- end b-feature-block -->
+                   </div><!-- end columns -->
+                </div><!-- end row -->
+        	</div><!-- end container -->
+        </section><!-- end best-features -->
+        
+        
+        <!--=============== TESTIMONIALS ===============-->
+        <section id="testimonials" class="section-padding">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-sm-12">
+                    	<div class="page-heading white-heading">
+                        	<h2>Testimonials</h2>
+                            <hr class="heading-line" />
+                        </div><!-- end page-heading -->
+
+                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                            <div class="carousel-inner text-center">
+                            
+                                <div class="item active">
+                                    <blockquote>Thank you once again for your diligence, customer support and professionalism. In a time when NOBODY is responding to the thousands of requests due coronavirus, you stand alone in integrity.</blockquote>
+                                    <div class="rating">
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star lightgrey"></i></span>
+                                    </div><!-- end rating -->
+                                    
+                                    <small>Wale Akin</small>
+                                </div><!-- end item -->
+                                
+                                <div class="item">
+                                    <blockquote>I cannot think of anything to improve! The whole team were great and Stephen really pulled out all the stops to help us.</blockquote>
+                                    <div class="rating">
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star lightgrey"></i></span>
+                                    </div><!-- end rating -->
+                                            
+                                    <small>Tobi Johnson</small>
+                                </div><!-- end item -->
+                                
+                                <div class="item">
+                                    <blockquote>You guys were amazing and we would definitely recommend you to family and friends! Thank you for everything, you made our trip a lot smoother.</blockquote>
+                                    <div class="rating">
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star lightgrey"></i></span>
+                                    </div><!-- end rating -->
+                                    
+                                    <small>Felix Akinkunmi</small>
+                                </div><!-- end item -->
+                                
+                            </div><!-- end carousel-inner -->
+                            
+                            <ol class="carousel-indicators">
+                                <li data-target="#quote-carousel" data-slide-to="0" class="active"><img src="images/testimony.png" class="img-responsive"  alt="client-img">
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="1"><img src="images/testimony.png" class="img-responsive"  alt="client-img">
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="2"><img src="images/testimony.png" class="img-responsive"  alt="client-img">
+                                </li>
+                            </ol>
+        
+                        </div><!-- end quote-carousel -->
+                    </div><!-- end columns -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section><!-- end testimonials --> 
+
+        
+        <!--============== HIGHLIGHTS =============-->
+        <section id="highlights" class="highlights-2"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="row">
+                            <div id="boxes">
+                            
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">  
+                                    <div class="highlight-box">
+                                        <div class="h-icon">
+                                            <span><i class="fa fa-plane"></i></span>
+                                        </div><!-- end h-icon -->
+                                        
+                                        <div class="h-text">
+                                            <span class="numbers">2496</span>
+                                            <p>Outstanding Tours</p>
+                                        </div><!-- end h-text -->                           
+                                    </div><!-- end highlight-box -->                       
+                                </div><!-- end columns -->
+                                
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">  
+                                    <div class="highlight-box">
+                                        <div class="h-icon">
+                                            <span><i class="fa fa-ship"></i></span>
+                                        </div><!-- end h-icon -->
+                                        
+                                        <div class="h-text cruise">
+                                            <span class="numbers">1906</span>
+                                            <p>Worldwide Cruise</p> 
+                                        </div><!-- end h-text -->                           
+                                    </div><!-- end highlight-box -->                       
+                                </div><!-- end columns -->
+                                
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">  
+                                    <div class="highlight-box">
+                                        <div class="h-icon">
+                                            <span><i class="fa fa-taxi"></i></span>
+                                        </div><!-- end h-icon -->
+                                        
+                                        <div class="h-text taxi">
+                                            <span class="numbers">2033</span>
+                                            <p>Luxury Car Booking</p>   
+                                        </div><!-- end h-text -->                           
+                                    </div><!-- end highlight-box -->                       
+                                </div><!-- end columns -->
+                                
+                            </div><!-- end boxes -->
+                    	</div><!-- end row -->
+            		</div><!-- end columns -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section><!-- end highlights -->
+        
+        
+        <!--============ NEWSLETTER-2 =============-->
+        <section id="newsletter-2" class="newsletter"> 
+            <div class="container">
+                <div class="row">
+                	<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                        <h2>Subscribe Our Newsletter</h2>	
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                        <form>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="email" class="form-control input-lg" placeholder="Enter your email address" required/>
+                                    <span class="input-group-btn"><button class="btn btn-lg"><i class="fa fa-envelope"></i></button></span>
+                                </div>
+                            </div>
+                        </form>
+                    </div><!-- end columns -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section><!-- end newsletter-2 -->
+        
+        
+        <!--======================= FOOTER =======================-->
+        <section id="footer" class="ftr-heading-w ftr-heading-mgn-2">
+        
+            <div id="footer-top" class="banner-padding ftr-top-grey">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 footer-widget ftr-about ftr-our-company">
+                            <h3 class="footer-heading">ABOUT US</h3>
+                            <p>Traveloptions is a full-fledged global registered and licensed pioneer of hospitality ecommerce space in Africa with a unique value proposition and bucket list of travel adventures aimed at redefining travel experience anywhere you find us in the world.</p>
+                            <br />
+                            <p>
+                            <span><i class="fa fa-map-maker"></i></span><b>Office Address:</b> 12, Rev'd Ogunbiyi Street, Ikeja-GRA, Ikeja-Lagos, Nigeria.
+                            </p>
+                            <ul class="social-links list-inline list-unstyled">
+                            	<li><a href="https://www.facebook.com/traveloptions.a"><span><i class="fa fa-facebook"></i></span></a></li>
+                            	<li><a href="https://www.twitter.com/traveloptions.a/"><span><i class="fa fa-twitter"></i></span></a></li>
+                                <li><a href="https://www.instagram.com/traveloptions.a/"><span><i class="fa fa-instagram"></i></span></a></li>
+                                <li><a href="https://www.linkedin.com/company/traveloptionsa/"><span><i class="fa fa-linkedin"></i></span></a></li>
+                                <li><a href="#"><span><i class="fa fa-youtube-play"></i></span></a></li>
+                            </ul>
+                        </div><!-- end columns -->
+                        
+                        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 footer-widget ftr-in-touch">
+                            <h3 class="footer-heading">Get in Touch</h3>
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-5 col-lg-5 slide-right-vis">
+                                    
+                                        <div class="form-group">
+                                             <input type="text" class="form-control" placeholder="Name"  required/>
+                                        </div>
+        
+                                        <div class="form-group">
+                                             <input type="text" class="form-control" placeholder="Email"  required/>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                             <input type="text" class="form-control" placeholder="Subject"  required/>
+                                        </div>
+                                        
+                                    </div><!-- end columns -->
+        
+                                    <div class="col-sm-6 col-md-7 col-lg-7 slide-left-vis">
+                                        <div class="form-group">
+                                            <textarea class="form-control" placeholder="Your Message"></textarea>
+                                        </div>
+                                    </div><!-- end columns -->
+                                    
+                                    <div class="col-sm-12 text-center">
+                                        <button class="btn btn-orange">Send</button>
+                                    </div><!-- end butn -->
+                                </div><!-- end row -->
+                            </form>
+                        </div><!-- end columns -->
+                        
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end footer-top -->
+
+            <div id="footer-bottom" class="ftr-bot-black">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="copyright">
+                            <p>© 2021 <a href="#">Traveloptions AFRICA</a>. All rights reserved.</p>
+                        </div><!-- end columns -->
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="terms">
+                            <ul class="list-unstyled list-inline">
+                            	<li><a href="https://traveloptions.africa/page/terms-of-service">Terms & Condition</a></li>
+                                <li><a href="https://traveloptions.africa/page/privacy-policy">Privacy Policy</a></li>
+                            </ul>
+                        </div><!-- end columns -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end footer-bottom -->
+            
+        </section><!-- end footer -->
+        
+        
+        <!-- Page Scripts Starts -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/bootstrap-datepicker.js"></script>
+        <script src="js/custom-navigation.js"></script>
+        <script src="js/custom-flex.js"></script>
+        <script src="js/custom-date-picker.js"></script>
+        <!-- Page Scripts Ends -->
+        
+    </body>
+</html>
